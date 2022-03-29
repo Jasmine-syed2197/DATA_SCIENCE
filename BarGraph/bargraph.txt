@@ -1,0 +1,30 @@
+(a)
+import matplotlib.pyplot as pll
+objects=('Java','Python','Javascript','C#','C++')   
+p=(22.2,8.8,8,77,6.7) 
+pll.bar(objects,p,align='center',alpha=0.4,color='blue')
+pll.ylabel('Popularity')
+pll.xlabel('Programming languages')
+pll.title('Programming Language Popularity')
+pll.show()
+
+(b)
+import matplotlib.pyplot as pll
+objects=('Java','Python','Javascript','C#','C++')   
+p=(22.2,8.8,8,77,6.7) 
+pll.barh(objects,p,align='center',alpha=0.4,color='red')
+pll.ylabel('Popularity')
+pll.xlabel('Programming languages')
+pll.title('Programming Language Popularity')
+pll.show()
+
+
+(c)
+import matplotlib.pyplot as pll
+objects=('Java','Python','Javascript','C#','C++')   
+p=(22.2,8.8,8,77,6.7) 
+pll.bar(objects,p,align='center',alpha=0.4,color=['red','blue','cyan','black','yellow'])
+pll.ylabel('Popularity')
+pll.xlabel('Programming languages')
+pll.title('Programming Language Popularity')
+pll.show()
